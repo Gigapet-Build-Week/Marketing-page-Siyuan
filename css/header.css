@@ -1,0 +1,61 @@
+.header-img {
+  width: 100%;
+}
+.gigapet {
+  margin: 1% 0 1% 15%;
+}
+.gigapet .use {
+  font-size: 2rem;
+}
+.gigapet .use .signup {
+  float: right;
+  font-size: 1.8rem;
+  background: blue;
+  margin: 0 2% 0 2%;
+  width: 12%;
+  padding: 1% 2%;
+  border-radius: 10%;
+}
+.gigapet .use .login {
+  font-size: 1.8rem;
+  float: right;
+  margin: 0 20% 0 2%;
+  background: red;
+  width: 12%;
+  padding: 1% 2%;
+  border-radius: 10%;
+}
+#logo {
+  text-decoration: none;
+  color: black;
+  font-family: 'Bangers', cursive;
+}
+.nav {
+  flex-wrap: wrap;
+  text-decoration: none;
+  width: 100%;
+}
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-round;
+  text-decoration: none;
+  width: 70%;
+  padding: 1% 3%;
+}
+nav a {
+  text-decoration: none;
+  color: #FFF;
+  background: #313A44;
+  font-size: 1.9rem;
+  border-left: 1px #FFF solid;
+  padding: 1% 2%;
+}
+nav .home {
+  border-left: none;
+}
+nav .search {
+  width: 20%;
+  margin-left: 5%;
+  font-size: 1.6rem;
+}
