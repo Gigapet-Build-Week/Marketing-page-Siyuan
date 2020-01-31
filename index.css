@@ -1,0 +1,101 @@
+.white-button {
+  padding: 1%;
+}
+* {
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+html,
+body {
+  font-family: 'Roboto', sans-serif;
+}
+h1 {
+  font-size: 4rem;
+}
+h2 {
+  font-size: 3.2rem;
+  padding-bottom: 10px;
+}
+h4 {
+  font-size: 2.5rem;
+  padding-bottom: 10px;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+body {
+  font-size: 62.5%;
+  background: #FFF;
+}
+p {
+  font-size: 3rem;
+  padding: 1% 10%;
+}
+.header-img {
+  width: 85%;
+  padding: 0 0 2% 10%;
+}
+#gigapet {
+  text-decoration: none;
+  color: black;
+}
+.gigapet {
+  margin: 1% 0 1% 15%;
+  font-family: 'Bangers', cursive;
+  font-size: 4rem;
+}
+.signup {
+  background: #F000;
+  float: right;
+  width: 40%;
+}
+.signup a {
+  text-decoration: none;
+  font-size: 2rem;
+  padding: 0 2%;
+}
+.nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  text-decoration: none;
+  width: 100%;
+}
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-round;
+  text-decoration: none;
+  width: 70%;
+  margin: 0 0 0 0% ;
+}
+nav a {
+  text-decoration: none;
+  padding: 1% 2%;
+  color: #FFF;
+  background: #313A44;
+  font-size: 1.9rem;
+  border-left: 1px #FFF solid;
+}
+nav .home {
+  border-left: none;
+}
+nav .search {
+  width: 25%;
+  margin-left: 5%;
+  font-size: 1.6rem;
+}
+footer {
+  background: #313A44;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 10%;
+  margin-left: 10%;
+  width: 80%;
+  font-size: 1rem;
+}
