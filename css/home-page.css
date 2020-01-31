@@ -1,0 +1,30 @@
+body {
+  font-size: 62.5%;
+  margin: 1% 7%;
+  background: blue;
+}
+.text {
+  display: block;
+  font-size: 1rem;
+  text-align: center;
+}
+.text h2 {
+  text-align: center;
+}
+.text p {
+  margin-left: 14%;
+  text-align: center;
+  width: 70%;
+}
+.pages-h2 {
+  color: #0072b9;
+  text-align: center;
+}
+.pages {
+  display: flex;
+  justify-content: space-evenly;
+}
+.pages-hr {
+  border-top: 1px #cbcc49 solid;
+  width: 78%;
+}

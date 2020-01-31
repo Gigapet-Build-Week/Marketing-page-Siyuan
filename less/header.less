@@ -1,0 +1,167 @@
+.header-img{
+  width: 100%;
+  // padding: 0 0 2% 10%;
+}
+
+
+
+.gigapet {
+  margin: 1% 0 1% 0%;
+
+  .logo {
+    text-decoration: none;
+    // color: red;
+    font-family: 'Bangers', cursive;
+    font-size: 5rem;
+    margin-left:18%;
+  }
+
+ 
+      .signup {
+        float: right;
+        background: black;
+        font-size: 1.6rem;
+        margin: 0 .5% 0 2%;
+        width: 6%;
+        padding:.4% .3%;
+        border-radius: 10%;
+      }
+      
+      .login {
+        float: right;
+        background:#F73F44;
+        font-size: 1.6rem;
+        margin: 0 25% 0 0%;
+        width: 6%;
+        padding:.4% .3%;
+        border-radius: 10%;
+      }
+    
+      @media (max-width:500px){
+
+        .gigapet{
+            width: 80%;
+
+        .logo{
+          width: 30%;
+          margin: 5%;
+          color:#0072b9;
+        }
+
+        .signup {
+          padding: 1% 2%;
+          font-size:1.0rem;
+          // margin-left:10%;
+          float:right;
+          width:30%;
+          margin:0;
+        }
+        .login{
+          padding: 1% 2%;
+          font-size:1.0rem;
+          float:right;
+          width:20%;
+          margin:0;
+        }
+        
+      } //media .gigapet
+
+} //closes .gigapet
+
+
+
+
+
+
+.nav {
+  flex-wrap: wrap;
+  text-decoration: none;
+  width: 100%;
+
+
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-round;
+  text-decoration: none;  
+  width: 70%;
+  margin: 2% 0 2% 16%;
+
+ a{
+  text-decoration: none;
+  color: #FFF;
+  background: #313A44;
+  font-size: 1.9rem;
+  border-left: 1px #FFF solid;
+  padding: 1% 5%;
+  margin: 0 .5%;
+} //closes a
+
+.home{
+  border-left: none;
+  background: #CBCC49;
+
+} // closes home
+
+.search {
+
+  width: 25%;
+  height: auto;
+  margin-left: 5%;
+  font-size: 2rem;
+
+} //closes search
+
+} // closes nav 
+
+}//closes .nav
+
+
+.pages {
+  display:flex;
+  justify-content: center;
+  width: 90%;
+  margin-left:15%;
+  text-align: center;
+
+  h3{
+    font-size: 2rem;
+    text-align: center;
+  }
+
+    p{
+      font-size: 1.6rem;
+      text-align: center;
+    }
+
+    .handout{
+      width: 30%;
+    }
+
+    .recipes{
+      width: 30%;
+    }
+
+    .healthy {
+      width: 30%;
+    }
+
+    @media (max-width:900px){
+      display: flex;
+      flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin:0;
+        padding:0;
+    }
+
+    @media (max-width:500px){
+      
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin:0;
+      padding:0;
+    }
+}

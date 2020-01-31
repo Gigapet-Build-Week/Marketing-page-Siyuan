@@ -1,0 +1,176 @@
+* {
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+h1 {
+  font-size: 4rem;
+}
+h2 {
+  font-size: 3.2rem;
+  padding-bottom: 10px;
+}
+h4 {
+  font-size: 2.5rem;
+  padding-bottom: 10px;
+}
+body {
+  font-size: 62.5%;
+  margin:  1% 7%;
+}
+.text {
+  display: block;
+  font-size: 3rem;
+  text-align: center;
+}
+.text h2 {
+  text-align: center;
+}
+.text p {
+  margin-left: 14%;
+  text-align: center;
+  width: 70%;
+}
+.pages-h2 {
+  color: #0072b9;
+  text-align: center;
+}
+.pages {
+  display: flex;
+  justify-content: space-evenly;
+}
+.pages-hr {
+  border-top: 1px #cbcc49 solid;
+  width: 78%;
+}
+.header-img {
+  width: 100%;
+}
+.gigapet {
+  margin: 1% 0 1% 0%;
+}
+.gigapet .logo {
+  text-decoration: none;
+  color: black;
+  font-family: 'Bangers', cursive;
+  font-size: 5rem;
+  margin-left: 18%;
+}
+.gigapet .signup {
+  float: right;
+  background: #71CA2D;
+  font-size: 1.6rem;
+  margin: 0 0.5% 0 2%;
+  width: 6%;
+  padding: 0.4% 0.3%;
+  border-radius: 10%;
+}
+.gigapet .login {
+  float: right;
+  background: #F73F44;
+  font-size: 1.6rem;
+  margin: 0 25% 0 0%;
+  width: 6%;
+  padding: 0.4% 0.3%;
+  border-radius: 10%;
+}
+@media (max-width: 500px) {
+  .gigapet .logo {
+    width: 30%;
+  }
+  .gigapet .signup {
+    padding: 4% 6%;
+    font-size: 1.4rem;
+    float: right;
+    width: 20%;
+    margin: 0;
+  }
+  .gigapet .login {
+    padding: 4% 6%;
+    font-size: 1.4rem;
+    float: right;
+    width: 20%;
+    margin: 0;
+  }
+}
+.nav {
+  flex-wrap: wrap;
+  text-decoration: none;
+  width: 100%;
+}
+.nav nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-round;
+  text-decoration: none;
+  width: 70%;
+  margin: 2% 0 2% 16%;
+}
+.nav nav a {
+  text-decoration: none;
+  color: #FFF;
+  background: #313A44;
+  font-size: 1.9rem;
+  border-left: 1px #FFF solid;
+  padding: 1% 5%;
+  margin: 0 0.5%;
+}
+.nav nav .home {
+  border-left: none;
+  background: #CBCC49;
+}
+.nav nav .search {
+  width: 25%;
+  height: auto;
+  margin-left: 5%;
+  font-size: 2rem;
+}
+.pages {
+  display: flex;
+  justify-content: center;
+  width: 80%;
+  margin-left: 15%;
+  text-align: center;
+}
+.pages h3 {
+  font-size: 2rem;
+  text-align: center;
+}
+.pages p {
+  font-size: 1.6rem;
+  text-align: center;
+}
+.pages .handout {
+  width: 30%;
+}
+.pages .recipes {
+  width: 30%;
+}
+.pages .healthy {
+  width: 30%;
+}
+@media (max-width: 800px) {
+  .pages {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+  }
+}
+@media (max-width: 500px) {
+  .pages {
+    display: flex;
+    flex-direction: column;
+  }
+}
+footer {
+  background: #E4E4E4;
+  padding-left: 10%;
+  margin-left: 10%;
+  width: 80%;
+  height: 35px;
+  font-size: 2rem;
+  padding: 2.2% 35%;
+}
