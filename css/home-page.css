@@ -1,20 +1,12 @@
-body{
+body {
   font-size: 62.5%;
   background: red;
 }
-
-
-
 .text {
   display: block;
   font-size: 3rem;
-  // padding: 1% 10%;  
   text-align: center;
- 
-    h2 {
-      padding-left: 50%;
-    }
 }
-
-
-
+.text h2 {
+  padding-left: 50%;
+}

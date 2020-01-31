@@ -1,43 +1,47 @@
 .header-img{
-  width: 85%;
-  padding: 0 0 2% 10%;
+  width: 100%;
+  // padding: 0 0 2% 10%;
 }
 
-#gigapet {
-  text-decoration: none;
-  color: black;
-}
+
 
 .gigapet {
   margin: 1% 0 1% 15%;
+
+  .use  {
+      float: right;
+      font-size: 2rem; 
+
+    .login{
+      text-decoration: none;
+      color: red;
+      font-size: 4rem;
+      float: right;
+    }
+    
+    .signup {
+      text-decoration: none;
+      background: red;
+    }
+    } //closes .user
+
+} //closes .gigapet
+
+#logo {
+  text-decoration: none;
+  color: black;
   font-family: 'Bangers', cursive;
-  font-size: 4rem;
 
 }
 
 
-.signup{
-  background: #F000;
-  float: right;
-  width: 40%;
 
-  a {
-    text-decoration: none;
-    font-size: 2.0rem;
-    padding: 0 2%;
-    // .center()
-
-  }
-}
 
 .nav {
   .center();
   flex-wrap: wrap;
   text-decoration: none;
   width: 100%;
-  @media @tablet{
-    
-  }
 
 }
 
@@ -47,15 +51,15 @@ nav {
   justify-content: space-round;
   text-decoration: none;  
   width: 70%;
-  margin:0 0 0 0% ;
+    padding: 1% 3%;
 
  a{
   text-decoration: none;
-  padding: 1% 2%;
   color: #FFF;
   background: #313A44;
   font-size: 1.9rem;
   border-left: 1px #FFF solid;
+  padding: 1% 2%;
 
 } //closes a
 
@@ -65,12 +69,13 @@ nav {
 } // closes home
 
 .search {
-  width: 25%;
+  width: 20%;
   margin-left: 5%;
   font-size: 1.6rem;
 
 } //closes search
 
 } // closes nav 
+
 
 
