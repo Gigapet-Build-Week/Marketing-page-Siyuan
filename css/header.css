@@ -2,60 +2,128 @@
   width: 100%;
 }
 .gigapet {
-  margin: 1% 0 1% 15%;
+  margin: 1% 0 1% 0%;
 }
-.gigapet .use {
-  font-size: 2rem;
-}
-.gigapet .use .signup {
-  float: right;
-  font-size: 1.8rem;
-  background: blue;
-  margin: 0 2% 0 2%;
-  width: 12%;
-  padding: 1% 2%;
-  border-radius: 10%;
-}
-.gigapet .use .login {
-  font-size: 1.8rem;
-  float: right;
-  margin: 0 20% 0 2%;
-  background: red;
-  width: 12%;
-  padding: 1% 2%;
-  border-radius: 10%;
-}
-#logo {
+.gigapet .logo {
   text-decoration: none;
-  color: black;
   font-family: 'Bangers', cursive;
+  font-size: 5rem;
+  margin-left: 18%;
 }
-.nav {
+.gigapet .signup {
+  float: right;
+  background: black;
+  font-size: 1.6rem;
+  margin: 0 0.5% 0 2%;
+  width: 6%;
+  padding: 0.4% 0.3%;
+  border-radius: 10%;
+}
+.gigapet .login {
+  float: right;
+  background: #F73F44;
+  font-size: 1.6rem;
+  margin: 0 25% 0 0%;
+  width: 6%;
+  padding: 0.4% 0.3%;
+  border-radius: 10%;
+}
+@media (max-width: 500px) {
+  .gigapet .gigapet {
+    width: 80%;
+  }
+  .gigapet .gigapet .logo {
+    width: 30%;
+    margin: 5%;
+    color: #0072b9;
+  }
+  .gigapet .gigapet .signup {
+    padding: 1% 2%;
+    font-size: 1rem;
+    float: right;
+    width: 30%;
+    margin: 0;
+  }
+  .gigapet .gigapet .login {
+    padding: 1% 2%;
+    font-size: 1rem;
+    float: right;
+    width: 20%;
+    margin: 0;
+  }
+}
+.gigapet .nav {
   flex-wrap: wrap;
   text-decoration: none;
   width: 100%;
 }
-nav {
+.gigapet .nav nav {
   display: flex;
   flex-direction: row;
   justify-content: space-round;
   text-decoration: none;
   width: 70%;
-  padding: 1% 3%;
+  margin: 2% 0 2% 16%;
 }
-nav a {
+.gigapet .nav nav a {
   text-decoration: none;
   color: #FFF;
   background: #313A44;
   font-size: 1.9rem;
   border-left: 1px #FFF solid;
-  padding: 1% 2%;
+  padding: 1% 5%;
+  margin: 0 0.5%;
 }
-nav .home {
+.gigapet .nav nav .home {
   border-left: none;
+  background: #CBCC49;
 }
-nav .search {
-  width: 20%;
+.gigapet .nav nav .search {
+  width: 25%;
+  height: auto;
   margin-left: 5%;
+  font-size: 2rem;
+}
+.gigapet .pages {
+  display: flex;
+  justify-content: center;
+  width: 90%;
+  margin-left: 15%;
+  text-align: center;
+}
+.gigapet .pages h3 {
+  font-size: 2rem;
+  text-align: center;
+}
+.gigapet .pages p {
   font-size: 1.6rem;
+  text-align: center;
+}
+.gigapet .pages .handout {
+  width: 30%;
+}
+.gigapet .pages .recipes {
+  width: 30%;
+}
+.gigapet .pages .healthy {
+  width: 30%;
+}
+@media (max-width: 900px) {
+  .gigapet .pages {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+  }
+}
+@media (max-width: 500px) {
+  .gigapet .pages {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+  }
 }

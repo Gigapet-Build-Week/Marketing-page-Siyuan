@@ -1,24 +1,24 @@
 body{
   font-size: 62.5%;
   margin:  1% 7%;
-  background: blue;
 }
 
 
 
 .text {
   display: block;
-  font-size: 1rem;
   // padding: 1% 10%;  
   text-align: center;
  
    h2 {
+     color: #0072b9;
      text-align: center;
    }
 
    p{
       margin-left: 14%;
      text-align: center;
+     font-size: 1.8rem;
      width:70%;
    }
 }
@@ -28,17 +28,143 @@ body{
   text-align: center;
 }
 
+.pages-hr {
+  border-top: 2px  #cbcc49 solid;
+  width: 90%;
+}
+
 .pages {
   display: flex;
-  justify-content:space-evenly;
+  justify-content:space-around;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+
+  h3{
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  p{
+    font-size: 1.6rem;
+    width: 50%;
+    margin-left: 24%;
+  }
+
+
+  .handout{
+    
+      width:35%;
+        height: auto;
+    
+
+    @media(max-width:900px){
+      width: 80%;
+      magrin-right:0;
+      img{
+        width:80%;
+        height: auto;
+      }
+      h3{
+        width:70%;
+        text-align: center;
+      }
+  } // closes 900px
+  } //closes /handout
+
+  .recipes{
+    width:35%;
+    height: auto;
+
+    image{
+      width:80%;
+      height: auto;
+    }
+
+  @media(max-width:900px){
+      width: 80%;
+      margin-left: 0; 
+      img{
+        width:80%;
+        height: auto;
+      }
+      h3{
+        text-align: center;
+      }
+  } //closes 900px
+  } //closes recipes
   
+.healthy{
+  width: 35%;
+  height: auto;
+  image{
+    width:80%;
+    height: auto;
+  }
+
+@media(max-width:900px){
+  width: 80%;
+  margin-left: 0; 
+
+  img{
+    width:80%;
+    height: auto;
+  }
+  h3{
+    text-align: center;
+  }
+} //closes 900px
+
+} //closes .healthy
+
+@media(max-width: 500px){
+  display: flex;
+  flex-direction: column;
+  // justify-content: center;
+  // align-items: center;
+  width: 100%;
+  // margin-left: %;
+  h3{
+margin-left: 10%;  }
+}
 }
 
-.pages-hr {
-  border-top: 1px  #cbcc49 solid;
-  width: 78%;
+.add-button {
+    display: flex;
+    flex-direction: column;
+    margin: 2% 0 2% 15%;
+
+    .add-child {
+      font-size: 1.6rem;
+      width:10%;
+      padding: 1% 1%;
+      text-decoration: none;
+      background: #68F7B3;
+      border: 1px solid black;
+      text-align: center;
+      margin-bottom: 1%;
+        @media(max-width:900px){
+          width: 17%;
+        }
+        @media(max-width:500px){
+          width:25%;
+        }
+    }
+    .add-meal {
+      font-size: 1.6rem;
+      padding: 1% 1%;
+      width:10%;
+      text-decoration: none;
+      background: #689AF7;
+      border: 1px solid black;
+      text-align: center;
+
+      @media(max-width:900px){
+        width: 17%;
+      }
+      @media(max-width:500px){
+        width:25%;
+      }
+    }
 }
-
-
-
-
