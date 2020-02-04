@@ -17,49 +17,186 @@ h4 {
 }
 body {
   font-size: 62.5%;
-  margin:  1% 7%;
+  margin: 1% 7%;
 }
-.text {
+#text {
   display: block;
-  font-size: 3rem;
   text-align: center;
 }
-.text h2 {
+#text h2 {
+  color: #0072b9;
   text-align: center;
 }
-.text p {
+#text p {
   margin-left: 14%;
   text-align: center;
+  font-size: 1.8rem;
   width: 70%;
 }
 .pages-h2 {
   color: #0072b9;
   text-align: center;
 }
-.pages {
-  display: flex;
-  justify-content: space-evenly;
-}
 .pages-hr {
-  border-top: 1px #cbcc49 solid;
-  width: 78%;
+  border-top: 2px #cbcc49 solid;
+  width: 90%;
+}
+#pages {
+  display: flex;
+  justify-content: space-around;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+#pages h3 {
+  font-size: 2rem;
+  text-align: center;
+}
+#pages p {
+  font-size: 1.6rem;
+  width: 50%;
+  margin-left: 24%;
+}
+#pages .handout {
+  width: 35%;
+  height: auto;
+}
+@media (max-width: 900px) {
+  #pages .handout {
+    width: 80%;
+    magrin-right: 0;
+  }
+  #pages .handout img {
+    width: 80%;
+    height: auto;
+  }
+  #pages .handout h3 {
+    width: 70%;
+    text-align: center;
+  }
+}
+#pages .recipes {
+  width: 35%;
+  height: auto;
+}
+#pages .recipes image {
+  width: 80%;
+  height: auto;
+}
+@media (max-width: 900px) {
+  #pages .recipes {
+    width: 80%;
+    margin-left: 0;
+  }
+  #pages .recipes img {
+    width: 80%;
+    height: auto;
+  }
+  #pages .recipes h3 {
+    text-align: center;
+  }
+}
+#pages .healthy {
+  width: 35%;
+  height: auto;
+}
+#pages .healthy image {
+  width: 80%;
+  height: auto;
+}
+@media (max-width: 900px) {
+  #pages .healthy {
+    width: 80%;
+    margin-left: 0;
+  }
+  #pages .healthy img {
+    width: 80%;
+    height: auto;
+  }
+  #pages .healthy h3 {
+    text-align: center;
+  }
+}
+@media (max-width: 500px) {
+  #pages {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  #pages h3 {
+    margin-left: 10%;
+  }
+}
+.add-button {
+  display: flex;
+  flex-direction: column;
+  margin: 2% 0 2% 15%;
+}
+.add-button a:visited {
+  color: #1B1B1B;
+}
+.add-button .add-child {
+  font-size: 1.6rem;
+  width: 10%;
+  padding: 1% 1%;
+  text-decoration: none;
+  background: #68F7B3;
+  border: 1px solid black;
+  text-align: center;
+  margin-bottom: 1%;
+}
+@media (max-width: 900px) {
+  .add-button .add-child {
+    width: 17%;
+  }
+}
+@media (max-width: 500px) {
+  .add-button .add-child {
+    width: 25%;
+  }
+}
+.add-button .add-meal {
+  font-size: 1.6rem;
+  padding: 1% 1%;
+  width: 10%;
+  text-decoration: none;
+  background: #689AF7;
+  border: 1px solid black;
+  text-align: center;
+}
+#contact {
+  text-align: center;
+  color: #1B1B1B;
+  background: #E4E4E4;
+  font-size: 2.5rem;
+  margin-top: 1%;
+}
+#contact a {
+  padding: 1% 0 1% 2%;
+  text-decoration: none;
+}
+#contact a:visited {
+  color: #1B1B1B;
 }
 .header-img {
   width: 100%;
 }
 .gigapet {
-  margin: 1% 0 1% 0%;
+  margin: 6% 0 2% 0%;
 }
 .gigapet .logo {
   text-decoration: none;
-  color: black;
   font-family: 'Bangers', cursive;
   font-size: 5rem;
-  margin-left: 18%;
+  margin-left: 15%;
+}
+.gigapet a:visited {
+  color: #1B1B1B;
 }
 .gigapet .signup {
   float: right;
-  background: #71CA2D;
+  background: #A8F189;
+  color: black;
   font-size: 1.6rem;
   margin: 0 0.5% 0 2%;
   width: 6%;
@@ -68,109 +205,112 @@ body {
 }
 .gigapet .login {
   float: right;
-  background: #F73F44;
+  background: #D97A7D;
   font-size: 1.6rem;
   margin: 0 25% 0 0%;
   width: 6%;
   padding: 0.4% 0.3%;
   border-radius: 10%;
 }
-@media (max-width: 500px) {
-  .gigapet .logo {
-    width: 30%;
+@media (max-width: 900px) {
+  .gigapet {
+    margin-left: -5%;
   }
   .gigapet .signup {
-    padding: 4% 6%;
-    font-size: 1.4rem;
-    float: right;
-    width: 20%;
-    margin: 0;
+    width: 12%;
+    margin: 2% 2% 0% 0%;
   }
   .gigapet .login {
-    padding: 4% 6%;
-    font-size: 1.4rem;
-    float: right;
+    margin: 2% 2% 0% 0%;
+    width: 12%;
+  }
+}
+@media (max-width: 500px) {
+  .gigapet .logo {
     width: 20%;
+    margin-left: 5%;
+    font-size: 3.2rem;
+  }
+  .gigapet .signup {
+    padding: 1% 2%;
+    font-size: 1.3rem;
+    float: right;
+    width: 15%;
+    margin: 0 2% ;
+  }
+  .gigapet .login {
+    padding: 1% 2%;
+    font-size: 1.3rem;
+    float: right;
+    width: 15%;
     margin: 0;
   }
 }
-.nav {
+#nav {
   flex-wrap: wrap;
   text-decoration: none;
   width: 100%;
+  margin: 2% 0 2% 16%;
 }
-.nav nav {
+@media (max-width: 900px) {
+  #nav {
+    margin: 2% 0 2% 9%;
+  }
+}
+@media (max-width: 500px) {
+  #nav {
+    margin: 2% ;
+  }
+}
+#nav nav {
   display: flex;
   flex-direction: row;
   justify-content: space-round;
   text-decoration: none;
-  width: 70%;
-  margin: 2% 0 2% 16%;
+  width: 100%;
+  text-align: center;
 }
-.nav nav a {
+#nav nav a {
   text-decoration: none;
   color: #FFF;
   background: #313A44;
   font-size: 1.9rem;
   border-left: 1px #FFF solid;
   padding: 1% 5%;
-  margin: 0 0.5%;
 }
-.nav nav .home {
+@media (max-width: 500px) {
+  #nav nav a {
+    padding: 0.2% 2%;
+  }
+}
+#nav nav .home {
   border-left: none;
   background: #CBCC49;
 }
-.nav nav .search {
-  width: 25%;
+#nav nav .search {
+  width: 20%;
   height: auto;
-  margin-left: 5%;
+  margin-left: 2%;
   font-size: 2rem;
 }
-.pages {
-  display: flex;
-  justify-content: center;
-  width: 80%;
-  margin-left: 15%;
-  text-align: center;
-}
-.pages h3 {
+footer {
+  background: #313A45;
+  width: 100%;
+  height: 15px;
   font-size: 2rem;
+  padding: 0.4% 0 4% 0;
+  margin: 0% 0 0 0 ;
   text-align: center;
 }
-.pages p {
-  font-size: 1.6rem;
-  text-align: center;
-}
-.pages .handout {
-  width: 30%;
-}
-.pages .recipes {
-  width: 30%;
-}
-.pages .healthy {
-  width: 30%;
-}
-@media (max-width: 800px) {
-  .pages {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: 0;
+@media (max-width: 900px) {
+  footer {
+    font-size: 1.6rem;
+    padding: 2% 35% 7% 40% ;
   }
 }
 @media (max-width: 500px) {
-  .pages {
-    display: flex;
-    flex-direction: column;
+  footer {
+    font-size: 1.6rem;
+    padding: 2% 35% 12% 40% ;
   }
-}
-footer {
-  background: #E4E4E4;
-  padding-left: 10%;
-  margin-left: 10%;
-  width: 80%;
-  height: 35px;
-  font-size: 2rem;
-  padding: 2.2% 35%;
 }

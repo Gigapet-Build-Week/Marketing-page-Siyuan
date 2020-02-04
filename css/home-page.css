@@ -1,30 +1,156 @@
 body {
   font-size: 62.5%;
   margin: 1% 7%;
-  background: blue;
 }
 .text {
   display: block;
-  font-size: 1rem;
   text-align: center;
 }
 .text h2 {
+  color: #0072b9;
   text-align: center;
 }
 .text p {
   margin-left: 14%;
   text-align: center;
+  font-size: 1.8rem;
   width: 70%;
 }
 .pages-h2 {
   color: #0072b9;
   text-align: center;
 }
+.pages-hr {
+  border-top: 2px #cbcc49 solid;
+  width: 90%;
+}
 .pages {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
-.pages-hr {
-  border-top: 1px #cbcc49 solid;
-  width: 78%;
+.pages h3 {
+  font-size: 2rem;
+  text-align: center;
+}
+.pages p {
+  font-size: 1.6rem;
+  width: 50%;
+  margin-left: 24%;
+}
+.pages .handout {
+  width: 35%;
+  height: auto;
+}
+@media (max-width: 900px) {
+  .pages .handout {
+    width: 80%;
+    magrin-right: 0;
+  }
+  .pages .handout img {
+    width: 80%;
+    height: auto;
+  }
+  .pages .handout h3 {
+    width: 70%;
+    text-align: center;
+  }
+}
+.pages .recipes {
+  width: 35%;
+  height: auto;
+}
+.pages .recipes image {
+  width: 80%;
+  height: auto;
+}
+@media (max-width: 900px) {
+  .pages .recipes {
+    width: 80%;
+    margin-left: 0;
+  }
+  .pages .recipes img {
+    width: 80%;
+    height: auto;
+  }
+  .pages .recipes h3 {
+    text-align: center;
+  }
+}
+.pages .healthy {
+  width: 35%;
+  height: auto;
+}
+.pages .healthy image {
+  width: 80%;
+  height: auto;
+}
+@media (max-width: 900px) {
+  .pages .healthy {
+    width: 80%;
+    margin-left: 0;
+  }
+  .pages .healthy img {
+    width: 80%;
+    height: auto;
+  }
+  .pages .healthy h3 {
+    text-align: center;
+  }
+}
+@media (max-width: 500px) {
+  .pages {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .pages h3 {
+    margin-left: 10%;
+  }
+}
+.add-button {
+  display: flex;
+  flex-direction: column;
+  margin: 2% 0 2% 15%;
+}
+.add-button .add-child {
+  font-size: 1.6rem;
+  width: 10%;
+  padding: 1% 1%;
+  text-decoration: none;
+  background: #68F7B3;
+  border: 1px solid black;
+  text-align: center;
+  margin-bottom: 1%;
+}
+@media (max-width: 900px) {
+  .add-button .add-child {
+    width: 17%;
+  }
+}
+@media (max-width: 500px) {
+  .add-button .add-child {
+    width: 25%;
+  }
+}
+.add-button .add-meal {
+  font-size: 1.6rem;
+  padding: 1% 1%;
+  width: 10%;
+  text-decoration: none;
+  background: #689AF7;
+  border: 1px solid black;
+  text-align: center;
+}
+@media (max-width: 900px) {
+  .add-button .add-meal {
+    width: 17%;
+  }
+}
+@media (max-width: 500px) {
+  .add-button .add-meal {
+    width: 25%;
+  }
 }
